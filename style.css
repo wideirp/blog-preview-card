@@ -30,7 +30,7 @@ main {
   align-items: center;
 
   article {
-    width: 384px;
+    width: clamp(327px, 45vw, 384px);
     background-color: var(--white);
     border: 1px solid var(--gray-950);
     border-radius: 20px;
@@ -40,7 +40,9 @@ main {
     & > picture {
       img {
         height: 200px;
+        width: 100%;
         border-radius: 15px;
+        object-fit: cover;
       }
     }
   }
@@ -98,19 +100,19 @@ main {
 }
 
 .textp1 {
-  font-size: 24px;
+  font-size: clamp(20px, 3vw, 24px);
   line-height: 1.5;
   letter-spacing: 0;
 }
 
 .textp2 {
-  font-size: 16px;
+  font-size: clamp(14px, 2vw, 16px);
   line-height: 1.5;
   letter-spacing: 0;
 }
 
 .textp3 {
-  font-size: 14px;
+  font-size: clamp(12px, 2vw, 14px);
   line-height: 1.5;
   letter-spacing: 0;
 }

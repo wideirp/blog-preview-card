@@ -65,6 +65,12 @@ main {
       margin: 12px 0;
     }
 
+    h1:hover,
+    h1:active,
+    h1:focus {
+      color: var(--yellow);
+    }
+
     .description {
       margin: 12px 0;
     }

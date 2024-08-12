@@ -51,13 +51,22 @@ main {
     .tag {
       background-color: var(--yellow);
       display: inline;
-      padding: 6px;
+      padding: 4px 12px;
+      margin: 12px 0;
       font-weight: 800;
-      border-radius: 5px;
+      border-radius: 4px;
+    }
+
+    .date {
+      margin: 12px 0;
     }
 
     h1 {
-      margin: 0;
+      margin: 12px 0;
+    }
+
+    .description {
+      margin: 12px 0;
     }
 
     .date,
@@ -72,9 +81,12 @@ main {
     align-items: center;
     font-weight: 800;
 
-    & img {
+    & picture {
       width: 32px;
       margin-right: 12px;
+      & img {
+        width: 32px;
+      }
     }
   }
 }
